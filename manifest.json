@@ -1,0 +1,17 @@
+{
+    "name": "ほんやくん",
+    "description": "Deepl api を利用した翻訳ツールです． (^v^)v",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "ほんやくん",
+        "default_popup": "popup.html"
+    },
+    "content_scripts":[{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
+    "permissions": [
+        "tabs"
+    ]    
+}

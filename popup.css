@@ -1,0 +1,35 @@
+/*背景色*/
+body {
+    background-color: gray;
+}
+/*翻訳対称*/
+#m_target{
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    font-family: system-ui; 
+    background-color: silver;
+    border: 3px;
+}
+/*結果の表示*/
+#m_result{
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    font-family: system-ui; 
+    background-color: silver;
+    border: 3px; 
+}
+/*全てのボタンの設定*/
+#m_buttons{
+    font-family: system-ui;
+    position: relative;
+    bottom: 1.5px;
+}
+/*ボタンが押されたとき*/
+input:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}

@@ -4,6 +4,8 @@ DeepL API を利用したChromeでDeepL翻訳が利用できる拡張機能で�
 ```
 .
 ├── content.js
+├── image
+│   └── ...
 ├── jquery-3.6.0.min.js
 ├── manifest.json
 ├── popup.css
